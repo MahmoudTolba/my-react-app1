@@ -242,3 +242,27 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.post-details-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.post-details-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.post-details-text {
+  font-size: 1.1rem;
+  line-height: 2;
+  white-space: pre-line;
+}
+
+@media (max-width: 576px) {
+  .post-details-image {
+    height: 220px;
+  }
+}
